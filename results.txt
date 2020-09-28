@@ -1,0 +1,38 @@
+Console output:
+
+Fact:      H7 father of H8
+Deduction: H7 parent of H8 (father-is-parent rule)
+Fact:      H7 parent of H8
+Fact:      H8 father of E
+Deduction: H8 parent of E (father-is-parent rule)
+Fact:      H8 parent of E
+Deduction: H7 grandfather of E (grandfather rule)
+Fact:      H7 grandfather of E
+Fact:      Jill mother of David
+Deduction: Jill parent of David (mother-is-parent rule)
+Fact:      Jill parent of David
+Fact:      Jill mother of Shula
+Deduction: Jill parent of Shula (mother-is-parent rule)
+Fact:      Jill parent of Shula
+Deduction: David sibling of Shula (sibling rule)
+Deduction: Shula sibling of David (sibling rule)
+Fact:      David sibling of Shula
+Fact:      Shula sibling of David
+Fact:      David father of Pip
+Deduction: David brother of Shula (brother rule)
+Deduction: David parent of Pip (father-is-parent rule)
+Fact:      David brother of Shula
+Fact:      David parent of Pip
+Deduction: Jill grandmother of Pip (grandmother rule)
+Fact:      Jill grandmother of Pip
+Fact:      Shula mother of Daniel
+Deduction: Shula sister of David (sister rule)
+Deduction: Shula parent of Daniel (mother-is-parent rule)
+Fact:      Shula sister of David
+Deduction: Shula aunt of Pip (aunt rule)
+Fact:      Shula parent of Daniel
+Deduction: Jill grandmother of Daniel (grandmother rule)
+Deduction: David uncle of Daniel (uncle rule)
+Fact:      Shula aunt of Pip
+Fact:      Jill grandmother of Daniel
+Fact:      David uncle of Daniel
